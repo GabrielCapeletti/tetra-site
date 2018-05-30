@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+}
+
+body { 
+    height: 100%; 
+}
+
+.content{
+    background-color: #120807;
+    height: 20000px;
+    position:relative;
+    z-index: 10000;
+}
+
+/* .keyart, .keyart_layer {
+	height: 1250px;
+}
+
+#parallax {
+	display: block;
+}
+
+.keyart {
+	position: relative;
+	z-index: 10;
+}
+
+.keyart_layer {
+	background-position: top center;
+	background-size: auto;
+	background-repeat: no-repeat;
+    width: 100%;
+}
+.keyart_layer.parallax {
+	position: fixed;
+} */
+
+.keyart_layer{     
+    position: absolute;    
+    margin-top: 0px;   
+    left: 50%; 
+    transform: translate(-50%,0);    
+    z-index:10;
+}
+.lucius {
+    top:18%;
+    height: 65%;
+}
+
+.fit-screen{     
+    height: 115%;
+}
+
+#keyart-0 {
+    background-image: url('../img/parallax/parallaxe0.png');
+    background-color: #120807;
+}
+
+#keyart-1 {
+    background-image: url('../img/parallax/parallaxe1.png');
+}
+#keyart-2 {
+    background-image: url('../img/parallax/parallaxe2.png');
+}
+#keyart-3 {
+    background-image: url('../img/parallax/parallaxe3.png');
+}
+#keyart-4 {
+    background-image: url('../img/parallax/parallaxe4.png');
+}
+#keyart-5 {
+    background-image: url('../img/parallax/parallaxe5.png');
+}
+#keyart-6 {
+    background-image: url('../img/parallax/parallaxe6.png');
+}
+/* #keyart-7 {
+    background-image: url('img/parallax/parallaxe7.png');
+}
+#keyart-8 {
+    background-image: url('img/parallax/parallaxe8.png');
+} */
+#keyart-scrim {
+    background-color: #003528;
+    opacity: 0;
+}
+
+/* @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){ 
+   	#keyart-0 {
+		background-image: url('img/parallax/parallax0@2x.png');
+		background-color: #ffaf1b;
+	}
+	#keyart-1 {
+		background-image: url('img/parallax/parallax1@2x.png');
+	}
+	#keyart-2 {
+		background-image: url('img/parallax/parallax2@2x.png');
+	}
+	#keyart-3 {
+		background-image: url('img/parallax/parallax3@2x.png');
+	}
+	#keyart-4 {
+		background-image: url('img/parallax/parallax4@2x.png');
+	}
+	#keyart-5 {
+		background-image: url('img/parallax/parallax5@2x.png');
+	}
+	#keyart-6 {
+		background-image: url('img/parallax/parallax6@2x.png');
+	}
+	#keyart-7 {
+		background-image: url('img/parallax/parallax7@2x.png');
+	}
+	#keyart-8 {
+		background-image: url('img/parallax/parallax8@2x.png');
+	}
+} */
