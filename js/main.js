@@ -20,6 +20,13 @@ $(function () {
             $('[data-content]').css("margin-top",height*1.14);
         }
 
+        function scrollHeader(){
+            var layers = $('.parallax');            
+            for (var i = 0; i < layers.length; i++) {                       
+                $(layers[i]).css('transform', 'translate3d(-50%, ' + (-this.pageYOffset) + 'px, 0px)');
+            }
+        }
+
         function applyParallax(){
             var layers = $('.parallax');
             var layer, speed, yPos;
@@ -78,14 +85,34 @@ $(function () {
         
         $('.lucius').css("height",($('.lucius').height())+"px");
         $('.lucius').css("top",($('.lucius').offset().top)+"px");
+        
+        if($(window).width() <= 600){
+            $('[data-row-col-left]').each(function() {
+                $(this).removeClass("col");
+                $(this).removeClass("text-column-left");
+                $(this).css("padding-top","20px");
+            });
 
+            $('[data-row-col-rigth]').each(function() {
+                $(this).removeClass("col");
+                $(this).removeClass("text-column-rigth");
+            });
+
+            $(".thumbnail").css("width","100%");
+            $(".thumbnail").css("height","100%");
+            $(".thumbnail").css("padding-top","20px");
+        }
 
         if(!isMobile){
             $(window).resize(resizeContentMargin);
-        }
-        $(window).mousemove(onMouseMove);
-        $(window).scroll(function(event){            
-            top = this.pageYOffset;           
-            applyParallax();
-        });
+            $(window).mousemove(onMouseMove);
+            $(window).scroll(function(event){            
+                top = this.pageYOffset;           
+                applyParallax();
+            });
+        } else {
+            $(window).scroll(function(event){            
+                scrollHeader();
+            });
+        }        
 });
