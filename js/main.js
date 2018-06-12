@@ -23,9 +23,11 @@ $(function () {
         }
 
         function scrollHeader(){
-            if(window.offsetY > $(window).height() && !playedVideo){
+            if((window.pageYOffset > ($(window).height() * 0.5)) && !playedVideo){  
+                playedVideo = true;              
                 $("#video")[0].src += "&autoplay=1";
             }
+            
             var layers = $('.parallax');            
             for (var i = 0; i < layers.length; i++) {                       
                 $(layers[i]).css('transform', 'translate3d(-50%, ' + (-this.pageYOffset) + 'px, 0px)');
@@ -35,7 +37,7 @@ $(function () {
         function applyParallax(){
             if((window.pageYOffset > ($(window).height() * 0.5)) && !playedVideo){  
                 playedVideo = true;              
-                $("#video")[0].src += "?autoplay=1";
+                $("#video")[0].src += "&autoplay=1";
             }
 
             var layers = $('.parallax');

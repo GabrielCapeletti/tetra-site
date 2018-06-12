@@ -58,7 +58,7 @@
                 </div>     
 
                 <div class="row padding-top">                               
-                    <iframe class="video" src="https://www.youtube.com/embed/AV1x2txQbR0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>                    
+                    <iframe class="video" src="https://www.youtube.com/embed/AV1x2txQbR0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>                    
                 </div>  
                 <div class="row">                               
                     <div class="col sub-text text-center" style="padding-top:30px">                        
