@@ -17,8 +17,7 @@
     </head>
     <body>
 
-        <div class="modal" data-modal>
-            <span class="close">&times;</span>
+        <div class="modal" data-modal>            
             <img class="modal-content-img" data-modal-img>            
         </div>
         
@@ -59,7 +58,7 @@
                 </div>     
 
                 <div class="row padding-top">                               
-                    <iframe class="video" src="https://www.youtube.com/embed/wjq9kwW0P_w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/AV1x2txQbR0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>                    
                 </div>  
                 <div class="row">                               
                     <div class="col sub-text text-center" style="padding-top:30px">                        
@@ -90,6 +89,10 @@
                         <img src="img/img1.jpg" class="thumbnail" data-img>
                         <img src="img/img2.jpg" class="thumbnail" data-img>
                     </div>    
+                    <div class="row text-left padding-top">
+                        <img src="img/img3.jpg" class="thumbnail" data-img>
+                        <img src="img/img4.jpg" class="thumbnail" data-img>
+                    </div>    
                 </div>    
 
                 <div class="row text-justify text-center">                    
@@ -99,8 +102,8 @@
                 </div>
 
                 <div class="row text-justify text-center">                    
-                    <div class="col-12 footer-social-midia">    
-                        <a href="" class="link">
+                    <div class="col-12 footer-devlog">    
+                        <a href="https://tetragon-devlog.tumblr.com/" target="_blank" class="link">
                             <img class="link" src="img/logo_tetragon.png" style="padding-top: 20px">   
                             <div class="devlog-link link">
                                 Devlog
@@ -121,13 +124,13 @@
                 </div>
                 <div class="row text-justify text-center">                    
                     <div class="col-12 footer-social-midia">
-                        <a href="" class="link">
+                        <a href="https://www.instagram.com/cafundoestudio/" class="link" target="_blank" >
                             <img src="img/logo_insta.png" class="social-link link">                                                       
                         </a>       
-                        <a href="" class="link">
+                        <a href="https://cafun.do/tetragon-facebook" class="link" target="_blank" >
                             <img src="img/logo_fb.png" class="social-link link">                                                                
                         </a>       
-                        <a href="" class="link">
+                        <a href="https://cafun.do/tetragon-twitter" class="link" target="_blank" >
                             <img src="img/logo_twitter.png" class="social-link link">                                                          
                         </a>       
                     </div>                                    
@@ -141,7 +144,7 @@
                 </div>
                 <div class="row text-justify text-center footer-team-photo text-justify ">        
                     <div class="team-container">                  
-                        <div class="team-member padding-top">
+                        <div class="team-member">
                             <div class="text-center team-photo">
                                 <img src="img/perfil_C.jpg">     
                             </div>      
@@ -150,7 +153,7 @@
                                 <div class="team-member-description"> TesteTesteTesteTeste Teste TesteTeste Teste TesteTesteTeste Teste esteTeste Teste TesteTesteTeste Teste </div>                            
                             </div>             
                         </div> 
-                        <div class="team-member padding-top">
+                        <div class="team-member">
                             <div class="text-center team-photo">
                                 <img src="img/perfil_GC.jpg">     
                             </div>      
@@ -159,7 +162,7 @@
                                 <div class="team-member-description"> TesteTesteTesteTeste Teste TesteTeste Teste TesteTesteTeste Teste esteTeste Teste TesteTesteTeste Teste </div>                            
                             </div>             
                         </div> 
-                        <div class="team-member padding-top">
+                        <div class="team-member">
                             <div class="text-center team-photo">
                                 <img src="img/perfil_GM.jpg">     
                             </div>      
@@ -168,7 +171,7 @@
                                 <div class="team-member-description"> TesteTesteTesteTeste Teste TesteTeste Teste TesteTesteTeste Teste esteTeste Teste TesteTesteTeste Teste </div>                            
                             </div>             
                         </div> 
-                        <div class="team-member padding-top">
+                        <div class="team-member">
                             <div class="text-center team-photo">
                                 <img src="img/perfil_GU.jpg">     
                             </div>      
@@ -177,7 +180,7 @@
                                 <div class="team-member-description"> TesteTesteTesteTeste Teste TesteTeste Teste TesteTesteTeste Teste esteTeste Teste TesteTesteTeste Teste </div>                            
                             </div>             
                         </div> 
-                        <div class="team-member padding-top">
+                        <div class="team-member">
                             <div class="text-center team-photo">
                                 <img src="img/perfil_T.jpg">     
                             </div>      
@@ -187,7 +190,21 @@
                             </div>             
                         </div> 
                     </div>                  
-                </div>            
+                </div>   
+                <div class="row text-justify text-center footer-cafundo">                    
+                    <div class="col-12">
+                        <div class="col text-center">
+                            <h2 class="header padding-top team-header">Produced by</h2>
+                        </div> 
+                    </div>                                    
+                </div>
+                <div class="row text-justify text-center footer-cafundo padding-bot">                                        
+                    <div class="col text-center">
+                          <a href="http://cafundoestudio.com.br" class="link" target="_blank">
+                            <img src="img/logo_cafundo.png" class="social-link link">                                                          
+                        </a>  
+                    </div>        
+                </div>        
             </div>
         </div>       
 

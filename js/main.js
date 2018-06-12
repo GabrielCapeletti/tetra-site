@@ -11,6 +11,8 @@ $(function () {
         var offsetX = 0;        
         var offsetY = 0;
         var top = 0;
+        var playedVideo = false;
+
         resizeContentMargin();
         
          $('[data-modal-img]').css("margin-top",$(window).height()/2);
@@ -21,6 +23,9 @@ $(function () {
         }
 
         function scrollHeader(){
+            if(window.offsetY > $(window).height() && !playedVideo){
+                $("#video")[0].src += "&autoplay=1";
+            }
             var layers = $('.parallax');            
             for (var i = 0; i < layers.length; i++) {                       
                 $(layers[i]).css('transform', 'translate3d(-50%, ' + (-this.pageYOffset) + 'px, 0px)');
@@ -28,6 +33,11 @@ $(function () {
         }
 
         function applyParallax(){
+            if((window.pageYOffset > ($(window).height() * 0.5)) && !playedVideo){  
+                playedVideo = true;              
+                $("#video")[0].src += "?autoplay=1";
+            }
+
             var layers = $('.parallax');
             var layer, speed, yPos;
             for (var i = 0; i < layers.length; i++) {
@@ -66,17 +76,13 @@ $(function () {
             element = imgs[i];
             element.onclick = function(){
                 $('[data-modal]').css("display","block");
-                modalImg.attr("src",this.src);                
+                modalImg.attr("src",this.src);                                
             }    
         }
-       
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
 
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {             
-            $('[data-modal]').css("display","none");
-        }
+        $('[data-modal]').click(function(){           
+              $('[data-modal]').css("display","none");
+        });                   
         //#endregion
 
         $('.fit-screen').each(function() {
@@ -84,7 +90,7 @@ $(function () {
         });
         
         $('.lucius').css("height",($('.lucius').height())+"px");
-        $('.lucius').css("top",($('.lucius').offset().top)+"px");
+        $('.lucius').css("top",($('.lucius').offset().top - window.pageYOffset)+"px");
         
         if($(window).width() <= 600){
             $('[data-row-col-left]').each(function() {
