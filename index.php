@@ -79,10 +79,10 @@
 
                     <div class="row text-left padding-top">                               
                         <div class="col text text-column-rigth" data-row-col-rigth>                        
-                            <div>Somewhere in a different dimension a world made out of planes exists. These planes are orbiting around a sacred jewel called Tetragem. No evil has existed in this world, everything was growing well until a strange energy appeared. A dark creature was born from this energy, destined to destroy the sacred jewel and bring chaos to Tetragon.</div>
+                            <div>Somewhere in a different dimension a world made out of planes exists. These planes orbit a sacred jewel called Tetragem. There was no evil within this world, everything was growing well until a strange energy appeared. A dark creature was born from this energy, destined to destroy the Tretagem and bring chaos to Tetragon.</div>
                         </div>                    
                         <div class="col text text-column-left" data-row-col-left>
-                            <div>The prophecy was accomplished, and the jewel was fragmented between many pieces. Using all his power to imprison the dark creature, Tetragon needed to find a substitute for the jewel. Meanwhile in Lucius world, his bored son is following him along into the woods. Hours passed before Lucius realized his kid was gone.</div>
+                            <div>The creature's destiny was accomplished and the jewel was fragmented into several pieces. Using all of its power, the will of Tetragon imprisoned the dark creature, but it was too late to save the jewel. Now the world needs a proper replacement for the Tetragem. Meanwhile in Lucius world, his bored son is following him along into the woods. Hours passed before  Lucius realized his kid was gone.</div>
                         </div>                                                
                     </div>   
                     
@@ -150,8 +150,8 @@
                                 <img src="img/perfil_C.jpg">     
                             </div>      
                             <div class="text-left team-member-detail">
-                                <h4 class="team-member-title">Chaves chavito</h4>
-                                <div class="team-member-description"> TesteTesteTesteTeste Teste TesteTeste Teste TesteTesteTeste Teste esteTeste Teste TesteTesteTeste Teste </div>                            
+                                <h4 class="team-member-title">Alexandre Chaves</h4>
+                                <div class="team-member-description"> The game director and creator of Tetragon. He wants the giraffes to live forever </div>                            
                             </div>             
                         </div> 
                         <div class="team-member">
@@ -159,8 +159,8 @@
                                 <img src="img/perfil_GC.jpg">     
                             </div>      
                             <div class="text-left team-member-detail">
-                                <h4 class="team-member-title">Gabriel Original</h4>
-                                <div class="team-member-description"> TesteTesteTesteTeste Teste TesteTeste Teste TesteTesteTeste Teste esteTeste Teste TesteTesteTeste Teste </div>                            
+                                <h4 class="team-member-title">Gabriel Capeletti</h4>
+                                <div class="team-member-description"> Gameplay and Systems Programmer. Applies some insane spin to the pingpong ball. </div>                            
                             </div>             
                         </div> 
                         <div class="team-member">
@@ -168,8 +168,8 @@
                                 <img src="img/perfil_GM.jpg">     
                             </div>      
                             <div class="text-left team-member-detail">
-                                <h4 class="team-member-title">Gabriel Marafigo II</h4>
-                                <div class="team-member-description"> TesteTesteTesteTeste Teste TesteTeste Teste TesteTesteTeste Teste esteTeste Teste TesteTesteTeste Teste </div>                            
+                                <h4 class="team-member-title">Gabriel Marafigo</h4>
+                                <div class="team-member-description"> Game artist, Illustrator, 2D/3D Animator.<br> Ohh .. he is also the team's cooker.</div>                            
                             </div>             
                         </div> 
                         <div class="team-member">
@@ -177,17 +177,26 @@
                                 <img src="img/perfil_GU.jpg">     
                             </div>      
                             <div class="text-left team-member-detail">
-                                <h4 class="team-member-title">Gustavo Malaco</h4>
-                                <div class="team-member-description"> TesteTesteTesteTeste Teste TesteTeste Teste TesteTesteTeste Teste esteTeste Teste TesteTesteTeste Teste </div>                            
+                                <h4 class="team-member-title">Gustavo Marangon</h4>
+                                <div class="team-member-description"> Gameplay and Systems Programmer.<br> Despite being a black belt he fails to kill all those bugs.</div>                            
                             </div>             
                         </div> 
                         <div class="team-member">
                             <div class="text-center team-photo">
+                                <img src="img/perfil_M.jpg">     
+                            </div>      
+                            <div class="text-left team-member-detail">
+                                <h4 class="team-member-title">Martin Fabichak</h4>
+                                <div class="team-member-description"> Tech Lead. The winter is coming and he knows how to deal with it.</div>                            
+                            </div>             
+                        </div> 
+                        <div class="team-member thalles">
+                            <div class="text-center team-photo">
                                 <img src="img/perfil_T.jpg">     
                             </div>      
                             <div class="text-left team-member-detail">
-                                <h4 class="team-member-title">Garotinho Thalles</h4>
-                                <div class="team-member-description"> TesteTesteTesteTeste Teste TesteTeste Teste TesteTesteTeste Teste esteTeste Teste TesteTesteTeste Teste </div>                            
+                                <h4 class="team-member-title">Thalles Fiala</h4>
+                                <div class="team-member-description"> Game Artist, Illustrator, Graphic designer and 2D Animator. His irony is as sharp as his pen. </div>                            
                             </div>             
                         </div> 
                     </div>                  

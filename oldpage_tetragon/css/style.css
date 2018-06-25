@@ -1,0 +1,427 @@
+.tetragon_world{    
+    position: absolute;
+    width: 1020px;
+    height: 1020px;        
+    left: calc(50% - 510px);
+    top: calc(50% - 510px);
+}
+
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.footer{    
+    width: 100%;
+    text-align: center;
+}
+
+.gameinfo{    
+    text-align: justify;
+    margin-top: -100px;
+    padding-bottom: 30px;    
+    font-family: 'Nova Square', cursive;
+    color: white;
+}
+
+.info{
+    padding-bottom: 90px;    
+    font-family: 'Nova Square', cursive;
+    color: white;
+}
+
+.marcas{
+    position: fixed;
+    bottom: 0px;    
+    padding-bottom: 10px;
+    width: 100%;
+    z-index: 10;
+    background: black;
+    text-align: center;
+    margin-left:-5px;
+}
+
+.marcas > img{
+    padding-top: 10px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    width: 200px;
+    height: auto;    
+}
+
+body{  
+    background: black;        
+    /* background-image: url("../images/pattern.png"); */
+    /* background-repeat: repeat;  */
+    background-size: 720px  720px;
+}
+
+.logo{
+    position: absolute;
+    z-index: 0;
+    left: calc(50% - 275px);
+    top: 5%;     
+    width: 550px;        
+}
+
+.logoimg{
+    margin-left: -240px;
+    width: 1020px;        
+    height: auto;
+}
+
+.box{    
+    width: 40%;
+    margin-top:-165px;
+    margin-left: 25%;    
+    padding-left: 20px;    
+    padding-right: 20px;                 
+    
+    /* background: #0000005d;
+    border: 2px solid #8c993979; */
+}
+
+.call{
+    font-family: 'Nova Square', cursive;
+    text-align: center;
+    color: #320658;
+    font-size: 1.4em;    
+    padding-bottom: 3px;
+    font-weight: 900;
+}   
+
+.inputArea{
+    width: 100%;    
+    height: 40px;
+}
+
+.inputArea > input{    
+    font-family: 'Nova Square', cursive;
+    width: 100%;    
+    height: 100%;
+    background-color: #6dfeec;
+    border: 4px solid #8a00ff;   
+    outline: none;    
+    padding-left: 15px;
+    font-size: 1.3em;        
+}
+
+.inputArea > button{
+    outline: none;    
+    font-family: 'Orbitron', sans-serif;        
+    width: 100%;    
+    height: 100%;
+    background-color: #8a00ff;        
+    color: #6dfeec;    
+    font-weight: 900;    
+    font-size: 1.3em;    
+    border: none;
+}
+
+.lucios{    
+    margin-top: 135%;
+    margin-left: 65px;
+    width: auto;
+    height: auto;
+}
+
+@media screen and (max-width: 712px) and (min-width: 560px) {
+    .tetragon_world{           
+        width: 700px;
+        height: 700px;            
+        left: calc(50% - 350px);
+        top: calc(50% - 350px);
+    }       
+
+    .logo{       
+        top: 40px;             
+    }
+    
+    .logoimg{
+        margin-left: -70px;
+        width: 680px;
+        height: auto;
+    }
+
+    .box{
+        margin-top: -113px;
+    }
+
+    .lucios{
+        margin-top: 95%;    
+    }
+    .gameinfo {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+@media screen and (max-width: 712px) and (min-width: 560px) and (min-height: 600px){
+    .tetragon_world{                   
+        top: 0px;
+    }      
+}
+
+@media screen and (max-width: 559px) and (min-width: 460px) {
+    .tetragon_world{           
+        width: 530px;
+        height: 530px;            
+        left: calc(50% - 265px);
+        top: calc(50% - 265px);
+    }       
+      
+    .logo{       
+        top: 100px;             
+    }
+    
+    .logoimg{
+        margin-left: 25px;
+        width: 500px;
+        height: auto;
+    }
+
+    .box{
+        margin-top: 60px;
+    }
+
+    .lucios{
+        margin-top: 95%;    
+    }
+
+    .call{       
+        font-size: 1.4em;  
+        color: white;          
+    }
+
+    .gameinfo {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 559px) and (min-width: 460px) and (min-height: 500px){
+    .tetragon_world{                   
+        top: 0px;
+    }         
+  
+}
+
+@media screen and (max-width: 459px) and (min-width: 380px){
+    .tetragon_world{           
+        width: 430px;
+        height: 430px;            
+        left: calc(50% - 215px);
+        top: calc(50% - 215px);
+    } 
+
+    .logo{       
+        top: 80px;             
+    }
+    
+    .logoimg{
+        margin-left: 75px;
+        width: 400px;
+        height: auto;
+    }
+
+    .box{
+        margin-top: 55px;
+    }
+
+    .lucios{
+        margin-top: 70%;    
+    }
+
+    .call{       
+        font-size: 1.2em;  
+        color: white;          
+    }     
+
+    .inputArea > input{      
+        font-size: 1em;        
+    }
+    
+    .inputArea > button{     
+        font-size: 1em;        
+    }
+
+    .gameinfo {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .info{
+        padding-bottom: 130px;    
+    }
+
+    .marcas > img{
+        display: block;    
+        margin-left: calc(50% - 150px);
+    }
+}
+
+@media screen and (max-width: 459px) and (min-width: 380px) and (min-height: 400px){
+    .tetragon_world{                   
+        top: 0px;
+    }   
+}
+
+
+@media screen and (max-width: 379px) and (min-width: 340px){
+    .tetragon_world{           
+        width: 340px;
+        height: 340px;            
+        left: calc(50% - 170px);        
+        top: calc(50% - 170px);                
+    } 
+
+    .logo{       
+        top: 55px;             
+    }
+    
+    .logoimg{
+        margin-left: 110px;
+        width: 330px;
+        height: auto;
+    }
+
+    .box{
+        margin-top: 55px;
+    }
+
+    .lucios{
+        margin-top: 60%;    
+    }
+
+    .call{       
+        font-size: 1.2em;  
+        color: white;          
+    }   
+    
+    .gameinfo {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .inputArea > input{      
+        font-size: 1em;        
+    }
+    
+    .inputArea > button{     
+        font-size: 1em;        
+    }
+
+    .info{
+        padding-bottom: 130px;    
+    }
+
+    .marcas > img{
+        display: block;
+        margin-left: calc(50% - 160px);
+    }
+}
+
+@media screen and (max-width: 379px)  and (min-width: 340px) and (min-height: 379px){
+    .tetragon_world{                   
+        top: 0px;
+    }          
+}
+
+@media screen and (max-width: 340px){
+    .tetragon_world{           
+        width: 300px;
+        height: 300px;            
+        left: calc(50% - 150px);        
+        top: calc(50% - 150px);                
+    } 
+    
+    .logo{       
+        top: 35px;             
+    }
+    
+    .logoimg{
+        margin-left: 110px;
+        width: 330px;
+        height: auto;
+    }
+
+    .box{
+        margin-top: 35px;
+    }
+
+    .lucios{
+        margin-top: 60%;    
+    }
+
+    .call{       
+        font-size: 1.2em;  
+        color: white;          
+    }   
+    
+    .gameinfo {
+        padding-left: 170px;
+        padding-right: 170px;
+    }
+
+    .inputArea > input{      
+        font-size: 1em;        
+    }
+    
+    .inputArea > button{     
+        font-size: 1em;        
+    }
+
+    .info{
+        padding-bottom: 130px;    
+    }
+
+    .marcas > img{
+        display: block;
+        margin-left: calc(50% - 180px);
+    }
+}
+
+@media screen and (max-width: 340px) and (min-height: 340px){
+    .tetragon_world{                   
+        top: 0px;
+    }      
+}
+
+
+    
+.tetragon_front{
+    position: absolute;    
+}
+
+.tetragon_img{
+    position:absolute;
+    animation:120s rotateRight infinite linear;             
+}
+
+.tetragon_img_left{
+    position:absolute;
+    animation:120s rotateLeft infinite linear;             
+}
+
+img{    
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    font-family: 'Nova Square', cursive;
+    color: yellow;    
+}
+
+
+
+@keyframes rotateLeft{
+    from { transform:rotateZ(0deg); }
+    from { transform:rotateZ(-360deg); }
+}
+
+@keyframes rotateRight{
+    from { transform:rotateZ(0deg); }
+    from { transform:rotateZ(360deg); }
+}
+
