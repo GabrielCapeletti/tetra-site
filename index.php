@@ -44,22 +44,21 @@
                 <div class="text-content">
                     <div class="row text-justify text-center" data-content>                    
                         <div class="col text-center">
-                            <h2 class="header">Deep inside this mystery square world, Lucius searches for his lost child.</h2>
+                            <h2 class="header">Deep inside a mystery squared world, Lucius searches for his lost son.</h2>
                         </div>                                    
                     </div>
 
                     <div class="row text-left padding-top">                               
                         <div class="col text text-column-rigth" data-row-col-rigth>                        
-                            <div>Tetragon is a 2D puzzle game ambiented in a geometric square world with a four-sided world gravity. The gameplay goes as a sequence of puzzles guided by a deep contextual story.</div>
+                            <div>Tetragon is a 2D puzzle game set in a geometric squared world with four-sided gravity. Gameplay goes on a sequence of puzzles guided by a deep contextual story.</div>
                         </div>                    
                         <div class="col text text-column-left" data-row-col-left>
-                            <div>In order to find his kid, Lucius has to use the power of Tetragem to move towers and interact with rotation hotspots that turn the world ninety degrees.</div>
+                            <div>In order to recover his son Lucius has to use the power of Tetragem to move towers and interact with rotation levers that turn the world in ninety degrees.</div>
                         </div>                                                
                     </div>                    
-                </div>     
-
+                </div>                     
                 <div class="row padding-top">                               
-                    <iframe class="video" src="https://www.youtube.com/embed/AV1x2txQbR0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>                    
+                    <iframe class="video" src="https://www.youtube.com/embed/I_wZwo95n6c?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen id="video"></iframe>                    
                 </div>  
                 <div class="row">                               
                     <div class="col sub-text text-center" style="padding-top:30px">                        
@@ -73,16 +72,16 @@
                 <div class="text-content">
                     <div class="row text-justify text-center">                    
                         <div class="col text-center">
-                            <h2 class="sub-header padding-top" >Tetragon is an immersive game, with a gourgeous artstyle and a deep story open for all ages.</h2>
+                            <h2 class="sub-header padding-top" >Tetragon is an immersive game with a gorgeous art style, unique and challenging gameplay and a deep story open for all ages.</h2>
                         </div>                                    
                     </div>
 
                     <div class="row text-left padding-top">                               
                         <div class="col text text-column-rigth" data-row-col-rigth>                        
-                            <div>Somewhere in a different dimension a world made out of planes exists. These planes orbit a sacred jewel called Tetragem. There was no evil within this world, everything was growing well until a strange energy appeared. A dark creature was born from this energy, destined to destroy the Tretagem and bring chaos to Tetragon.</div>
+                            <div>Somewhere in a different dimension a world made out of plans exists. These plans orbit a holy jewel so-called Tetragen. There was no evil within this world, everything was growing well until the rise of a strange energy. The dark creature was born from this energy, intended to destroy Tretagen and cause chaos to Tetragon.</div>
                         </div>                    
                         <div class="col text text-column-left" data-row-col-left>
-                            <div>The creature's destiny was accomplished and the jewel was fragmented into several pieces. Using all of its power, the will of Tetragon imprisoned the dark creature, but it was too late to save the jewel. Now the world needs a proper replacement for the Tetragem. Meanwhile in Lucius world, his bored son is following him along into the woods. Hours passed before  Lucius realized his kid was gone.</div>
+                            <div>The creature’s destiny was accomplished and the jewel was fragmented into several pieces. Using all of its power, the Will of Tetragon jailed the dark creature but it was too late to save the jewel. Now, this world needs a proper replacement for the Tetragen. Meanwhile, in Lucius world, his bored son is following him into the forest. Hours passed before Lucius realized his son was gone.</div>
                         </div>                                                
                     </div>   
                     
@@ -139,7 +138,7 @@
                 <div class="row text-justify text-center">                    
                     <div class="col-12 footer-team">
                         <div class="col text-center">
-                            <h2 class="header padding-top team-header">Development Team</h2>
+                            <h2 class="header padding-top team-header">Team</h2>
                         </div> 
                     </div>                                    
                 </div>
@@ -153,7 +152,7 @@
                                 <h4 class="team-member-title">Alexandre Chaves</h4>
                                 <div class="team-member-description"> The game director and creator of Tetragon. He wants the giraffes to live forever </div>                            
                             </div>             
-                        </div> 
+                        </div>                         
                         <div class="team-member">
                             <div class="text-center team-photo">
                                 <img src="img/perfil_GC.jpg">     
@@ -183,6 +182,24 @@
                         </div> 
                         <div class="team-member">
                             <div class="text-center team-photo">
+                                <img src="img/perfil_J.jpg">     
+                            </div>      
+                            <div class="text-left team-member-detail">
+                                <h4 class="team-member-title">Júlio Miotto</h4>
+                                <div class="team-member-description"> Music Composer and Sound Designer. <br> Works really hard on his hairstyle.</div>                            
+                            </div>             
+                        </div> 
+                        <div class="team-member">
+                            <div class="text-center team-photo">
+                                <img src="img/perfil_L.jpg">     
+                            </div>      
+                            <div class="text-left team-member-detail">
+                                <h4 class="team-member-title">Leonardo Minozzo</h4>
+                                <div class="team-member-description"> Executive Producer, Head of Business.<br> His mission is to conquer the world (with Tetragon) </div>                            
+                            </div>             
+                        </div> 
+                        <div class="team-member">
+                            <div class="text-center team-photo">
                                 <img src="img/perfil_M.jpg">     
                             </div>      
                             <div class="text-left team-member-detail">
@@ -190,7 +207,7 @@
                                 <div class="team-member-description"> Tech Lead. The winter is coming and he knows how to deal with it.</div>                            
                             </div>             
                         </div> 
-                        <div class="team-member thalles">
+                        <div class="team-member">
                             <div class="text-center team-photo">
                                 <img src="img/perfil_T.jpg">     
                             </div>      
@@ -199,22 +216,34 @@
                                 <div class="team-member-description"> Game Artist, Illustrator, Graphic designer and 2D Animator. His irony is as sharp as his pen. </div>                            
                             </div>             
                         </div> 
-                    </div>                  
-                </div>   
-                <div class="row text-justify text-center footer-cafundo">                    
-                    <div class="col-12">
-                        <div class="col text-center">
-                            <h2 class="header padding-top team-header">Produced by</h2>
+                        <div class="team-member alone">
+                            <div class="text-center team-photo">
+                                <img src="img/perfil_V.jpg">     
+                            </div>      
+                            <div class="text-left team-member-detail">
+                                <h4 class="team-member-title">Vanessa Christoff</h4>
+                                <div class="team-member-description"> Quality Assurance and Game Tester. <br>No bugs allowed. </div>                            
+                            </div>             
                         </div> 
-                    </div>                                    
-                </div>
+                    </div>                  
+                </div>                
+                <div class="row text-justify text-center footer-cafundo">                                        
+                    <div class="col text-center">
+                        <a href="http://cafundoestudio.com.br" class="link" target="_blank">
+                            <img src="img/logo_cafundo.png" class="social-link link">                                                          
+                        </a>                         
+                    </div>                            
+                </div>        
                 <div class="row text-justify text-center footer-cafundo padding-bot">                                        
                     <div class="col text-center">
-                          <a href="http://cafundoestudio.com.br" class="link" target="_blank">
-                            <img src="img/logo_cafundo.png" class="social-link link">                                                          
+                        <a href="http://cafundoestudio.com.br" class="link" target="_blank" style="padding-right: 51px;">
+                            <img src="img/logo_1.png" class="social-link link ancine_logo">                                                          
                         </a>  
-                    </div>        
-                </div>        
+                        <a href="http://cafundoestudio.com.br" class="link" target="_blank">
+                            <img src="img/logo_2.png" class="social-link link ancine_logo">                                                          
+                        </a>                         
+                    </div>                            
+                </div>                        
             </div>
         </div>       
 
